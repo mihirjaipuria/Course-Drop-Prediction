@@ -1,3 +1,36 @@
+# Course Completion Predictor
+
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/downloads/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0.24%2B-orange)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+This project predicts course completion likelihood based on synthetic data for 10,000 students. It leverages machine learning models like Random Forest and Gradient Boosting, along with a Voting Classifier, to enhance prediction accuracy. A Streamlit app provides an interactive interface for user input and predictions.
+
+## Table of Contents
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Models and Algorithms](#models-and-algorithms)
+- [Web Application](#web-application)
+- [Project Structure](#project-structure)
+
+## Features
+
+- Synthetic data generation with demographic and engagement attributes
+- Feature engineering with custom metrics for enhanced prediction
+- Addressing class imbalance using SMOTE resampling
+- Data preprocessing with one-hot encoding for categorical variables
+- Transferable Streamlit interface for interactive predictions
+
+## Prerequisites
+
+- Python 3.7+
+- Pandas, NumPy
+- Scikit-Learn
+- Imbalanced-Learn
+- Streamlit
+- Matplotlib, Seaborn
+
 ## Usage
 
 1. **Data Generation and Preprocessing**: 
@@ -45,7 +78,7 @@ The Streamlit app provides an interactive interface:
 
 ```plaintext
 |-- data/                    # Directory for synthetic data generation
-|-- app.py                   # Main Streamlit app file
+|-- webapp.py                   # Main Streamlit app file
 |-- model_training.py        # Script for model training and evaluation
 |-- requirements.txt         # List of required libraries
 |-- README.md                # Project documentation
