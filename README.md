@@ -8,6 +8,8 @@
 
 This project predicts course completion likelihood based on synthetic data for 10,000 students. It leverages machine learning models like Random Forest and Gradient Boosting, along with a Voting Classifier, to enhance prediction accuracy. A Streamlit app provides an interactive interface for user input and predictions.
 
+**[Try the Course Completion Predictor Streamlit App here!](https://course-drop-prediction.streamlit.app/)**
+
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
@@ -81,6 +83,6 @@ The Streamlit app provides an interactive interface:
 ```plaintext
 |-- data/                    # Directory for synthetic data generation
 |-- webapp.py                   # Main Streamlit app file
-|-- model.py        # Script for model training and evaluation
+|-- model.ipynb        # Script for model training and evaluation
 |-- requirements.txt         # List of required libraries
 |-- README.md                # Project documentation
