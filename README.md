@@ -1,5 +1,7 @@
 # Course Completion Predictor
 
+> **Note**: This repository uses synthetic data for demonstration purposes because the actual dataset cannot be released due to privacy constraints.
+
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/downloads/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0.24%2B-orange)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -79,6 +81,6 @@ The Streamlit app provides an interactive interface:
 ```plaintext
 |-- data/                    # Directory for synthetic data generation
 |-- webapp.py                   # Main Streamlit app file
-|-- model_training.py        # Script for model training and evaluation
+|-- model.py        # Script for model training and evaluation
 |-- requirements.txt         # List of required libraries
 |-- README.md                # Project documentation
